@@ -1,0 +1,2 @@
+Fix ordered list error on faq.html
+Fix ordered list error in index.html
