@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Normal Mode | BRST</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css/bootstrap.css" media="screen" rel="stylesheet">
+    <link href="css/bootswatch.min.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="../bower_components/html5shiv/dist/html5shiv.js"></script> <script src="../bower_components/respond/dest/respond.min.js"></script> <![endif]-->
+    <link href="img/brst-brand.png" rel="icon" type="image/png">
+    <script src="js/brst.js"></script>
+    <script>
+var normal = "yes";
+    </script>
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><img alt="Brand" src=
+                "img/brst-brand.png" style=
+                "max-width:100px; margin-top: -7px;"></a> <button class=
+                "navbar-toggle" data-target="#navbar-main" data-toggle=
+                "collapse" type="button"><span class="icon-bar"></span>
+                <span class="icon-bar"></span> <span class=
+                "icon-bar"></span></button>
+            </div>
+
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="normal.html">Normal</a>
+                    </li>
+
+                    <li>
+                        <a href="advanced.html">Advanced</a>
+                    </li>
+
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+
+                    <li>
+                        <a href="download.html">Download</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Help
+                        <span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="crypto-key-generation.html">Crypto Key
+                                Generation</a>
+                            </li>
+
+                            <li>
+                                <a href=
+                                "troubleshooting.html">Troubleshooting</a>
+                            </li>
+
+                            <li>
+                                <a href="services-and-protocols.html">Services
+                                and Protocols</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="copying.html">Copying</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <br>
+
+                <div class="content">
+                    <h2>Normal Mode</h2>
+
+                    <p class="bold-font">Be sure to follow the steps on the
+                    <a href="index.html">Start Here</a> page prior to
+                    starting.</p>
+
+                    <p>After completing the <a href="index.html">Start
+                    Here</a>, fill out the form below and click "Submit" to
+                    receive a secure Cisco router configuration file.</p>
+
+                    <form id="form1" name="form1">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <h3>About Your Router</h3>
+
+                                <p>Enter a few details about your router:</p>
+									<label class="col-lg-3 control-label ">Code version:</label>
+
+                                        <div class="form-group">
+                                            <div class="col-lg-9">
+                                                <div class="form-inline">
+                                                    <div class="form-group">
+                                                        <div class="col-lg-12">
+                                                            <select class=
+                                                            "form-control" id=
+                                                            "ver_major_release">
+                                                            <option value="15">
+                                                                15
+                                                                </option>
+
+                                                                <option value=
+                                                                "14">
+                                                                    14
+                                                                </option>
+
+                                                                <option value=
+                                                                "13">
+                                                                    13
+                                                                </option>
+
+                                                                <option value=
+                                                                "12">
+                                                                    12
+                                                                </option>
+
+                                                                <option value=
+                                                                "11">
+                                                                    11
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </div><b>.</b>
+
+                                                    <div class="form-group">
+                                                        <div class="col-lg-12">
+                                                            <select class=
+                                                            "form-control" id=
+                                                            "ver_maint_release">
+                                                            <option value="0">
+                                                                0
+                                                                </option>
+
+                                                                <option value=
+                                                                "1">
+                                                                    1
+                                                                </option>
+
+                                                                <option value=
+                                                                "2">
+                                                                    2
+                                                                </option>
+
+                                                                <option value=
+                                                                "3">
+                                                                    3
+                                                                </option>
+
+                                                                <option value=
+                                                                "4">
+                                                                    4
+                                                                </option>
+
+                                                                <option value=
+                                                                "5">
+                                                                    5
+                                                                </option>
+
+                                                                <option value=
+                                                                "6">
+                                                                    6
+                                                                </option>
+
+                                                                <option value=
+                                                                "7">
+                                                                    7
+                                                                </option>
+
+                                                                <option value=
+                                                                "8">
+                                                                    8
+                                                                </option>
+
+                                                                <option value=
+                                                                "9">
+                                                                    9
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </div><b>(</b>
+
+                                                    <div class="form-group">
+                                                        <div class="col-lg-12">
+                                                            <select class=
+                                                            "form-control" id=
+                                                            "ver_maint_revision">
+                                                            <option value="0">
+                                                                0
+                                                                </option>
+
+                                                                <option value=
+                                                                "1">
+                                                                    1
+                                                                </option>
+
+                                                                <option value=
+                                                                "2">
+                                                                    2
+                                                                </option>
+
+                                                                <option value=
+                                                                "3">
+                                                                    3
+                                                                </option>
+
+                                                                <option value=
+                                                                "4">
+                                                                    4
+                                                                </option>
+
+                                                                <option value=
+                                                                "5">
+                                                                    5
+                                                                </option>
+
+                                                                <option value=
+                                                                "6">
+                                                                    6
+                                                                </option>
+
+                                                                <option value=
+                                                                "7">
+                                                                    7
+                                                                </option>
+
+                                                                <option value=
+                                                                "8">
+                                                                    8
+                                                                </option>
+
+                                                                <option value=
+                                                                "9">
+                                                                    9
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </div><b>)</b>
+                                                </div>
+                                            </div>
+                                        </div>
+									<label class="col-lg-3 control-label ">Router model:</label>
+
+                                        <ul style="list-style-type: none;">
+                                            <li><input class=
+                                            "text_input form-control" id=
+                                            "hardware_version" maxlength="25"
+                                            placeholder="1841" size="25" style=
+                                            "max-width:20em;" type="text"></li>
+                                        </ul>
+									<label class="col-lg-3 control-label ">Crypto support?:</label>
+
+                                        <ul style="list-style-type: none;">
+                                            <li><label><input checked="checked"
+                                            class="form-control" name=
+                                            "radio_encryption" type="radio"
+                                            value="yes">Yes</label>&emsp;&emsp;
+                                            <label><input class="form-control"
+                                            name="radio_encryption" type=
+                                            "radio" value="no">No</label></li>
+                                        </ul>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+  <div class="panel-body">
+                            <h3>Router IP Information</h3>
+
+                            <p>Information relating to your router's interface
+                            names and IP addresses.</p>
+
+                            <div class="panel panel-default">
+  <div class="panel-body">
+                                <h4>Gateway</h4>
+
+                                <p>This IP Address should be provided by your
+                                Internet Service Provider (ISP).</p>
+
+                                <div class="singlequestion">
+									<div class="form-group">
+									  <label class="col-lg-3 control-label ">Gateway IP Address:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="gw_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="gw_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="gw_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="gw_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                                </div>
+                            </div></div>
+
+                            <div class="panel panel-default">
+  <div class="panel-body">
+                                <h4>Outside (WAN) Interface</h4>
+
+                                <p>The Outside or Wide Area Nework (WAN)
+                                Interface is the one that connects your router
+                                to the Internet Service Provider's (ISP's)
+                                network.</p>
+
+                                <div class="singlequestion">
+                                     <label class="col-lg-3 control-label ">Outside (WAN) Inteface Name:</label><ul style="list-style-type: none;">
+                                            <li><input  id="wan_int" class="form-control" maxlength="25"
+                                    placeholder="ethernet0" style="max-width:20em;" size="25" type="text"></li></ul>
+									
+                                </div>
+                                <div class="singlequestion">
+									<div class="form-group">
+									  <label class="col-lg-3 control-label ">IP Address:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="wan_int_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="wan_int_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="wan_int_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="wan_int_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                                </div>
+
+                                <div class="singlequestion">
+									<div class="form-group">
+									  <label class="col-lg-3 control-label ">Subnet Mask:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="wan_int_mask1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="wan_int_mask2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="wan_int_mask3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="wan_int_mask4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                                </div>
+                            </div></div>
+
+                            <div class="panel panel-default">
+  <div class="panel-body">
+                                <h4>Inside Interface</h4>
+
+                                <p>The Inside Interface is the one that
+                                connects the router to your Firewall or inside
+                                network.</p>
+
+                                <div class="singlequestion">
+                                     <label class="col-lg-3 control-label ">Inside Interface Name:</label><ul style="list-style-type: none;">
+                                            <li><input  id="firewall_int" class="form-control" maxlength="25"
+                                    placeholder="ethernet1" style="max-width:20em;" size="25" type="text"></li></ul>
+                                </div>
+								
+                                <div class="singlequestion">
+									<div class="form-group">
+									  <label class="col-lg-3 control-label ">IP Address:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_int_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_int_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_int_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_int_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                                </div>
+
+                                
+								<div class="singlequestion">
+									<div class="form-group">
+									  <label class="col-lg-3 control-label ">Subnet Mask:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_int_mask1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_int_mask2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_int_mask3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_int_mask4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                                </div>
+                            </div></div>
+                        </div> </div>
+
+                        <div class="panel panel-default">
+  <div class="panel-body">
+                            <h3>Service IP's and Information</h3>
+
+                            <p>IP addresses for services and configuring access
+                            to the router.</p>
+
+                            <div class="panel panel-default">
+  <div class="panel-body">
+                                <h4>Loopback Interface</h4>
+
+                                <p>Enter an IP address for your loopback
+                                interface (if you don't know, enter
+                                127.0.0.1).</p>
+									
+									<div class="form-group">
+									  <label class="col-lg-3 control-label ">Loopback IP:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="loopback_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="loopback_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="loopback_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="loopback_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+  <div class="panel-body">
+                                <h4>NTP Servers</h4>
+
+                                <p>Enter the IP addresses for your Network Time
+                                Protocol (NTP) Servers. (If you don't know,
+                                find one <a href=
+                                "http://support.ntp.org/bin/view/Servers/StratumTwoTimeServers">
+                                here</a>.)</p>
+								<div class="form-group">
+									  <label class="col-lg-3 control-label ">NTP Server 1:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="ntp_svr1_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="ntp_svr1_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="ntp_svr1_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="ntp_svr1_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+
+                                
+								<div class="form-group">
+									  <label class="col-lg-3 control-label ">NTP Server 2:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="ntp_svr2_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="ntp_svr2_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="ntp_svr2_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="ntp_svr2_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                            </div></div>
+
+                            <div class="panel panel-default">
+  <div class="panel-body">
+                                <h4>Remote Access</h4>
+
+                                <p>Enter the IP address of a trusted computer
+                                you will use to access the router remotely.</p>
+
+								<div class="form-group">
+									  <label class="col-lg-3 control-label ">Trusted IP:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="vty_trusted_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="vty_trusted_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="vty_trusted_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="vty_trusted_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                            </div></div>
+
+                           <div class="panel panel-default">
+  <div class="panel-body">
+                                <h4>User Information</h4>
+
+                                <p>Enter a user name and password (change the
+                                user name, password, and enable secret password
+                                in the text file you receive prior to loading
+                                into the router).</p>
+
+                                								
+									<label class="col-lg-3 control-label ">User name:</label>
+
+                                        <ul style="list-style-type: none;">
+                                            <li><input class=
+                                            "text_input form-control" id=
+                                            "username" maxlength="25"
+                                            placeholder="Change before use..." size="25" style=
+                                            "max-width:20em;" type="text"></li>
+                                        </ul>
+								<label class="col-lg-3 control-label ">Password:</label>
+
+                                        <ul style="list-style-type: none;">
+                                            <li><input class=
+                                            "text_input form-control" id=
+                                            "u_password" maxlength="25"
+                                            placeholder="Change before use..." size="25" style=
+                                            "max-width:20em;" type="text"></li>
+                                        </ul>
+								<label class="col-lg-3 control-label ">Enable Secret Password:</label>
+
+                                        <ul style="list-style-type: none;">
+                                            <li><input class=
+                                            "text_input form-control" id=
+                                            "enable_secret_pw" maxlength="25"
+                                            placeholder="Change before use..." size="25" style=
+                                            "max-width:20em;" type="text"></li>
+                                        </ul>
+                            </div></div>
+                        </div></div>
+
+                        <div class="panel panel-default">
+  <div class="panel-body">
+                            <h3>Logging</h3>
+
+                            <p>Provide some information to set up logging.</p>
+
+                           <div class="panel panel-default">
+  <div class="panel-body">
+                                <p><label><input name="radio_logging" type=
+                                "radio" value="local_syslog"> Configure Syslog
+                                to use a <a href="help.html#syslog_local">port
+                                on this router</a></label></p>
+
+                                <p>Interface name and IP address.</p>
+
+								<label class="col-lg-3 control-label ">Local DMZ Interface Name:</label>
+
+                                        <ul style="list-style-type: none;">
+                                            <li><input class=
+                                            "text_input form-control" id=
+                                            "local_dmz_name" maxlength="25"
+                                            placeholder="ethernet0" size="25" style=
+                                            "max-width:20em;" type="text"></li>
+                                        </ul>
+								<div class="form-group">
+									  <label class="col-lg-3 control-label ">Local DMZ Interface IP:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                                <p>Syslog server IP address and DMZ subnet
+                                mask.</p>
+								<div class="form-group">
+									  <label class="col-lg-3 control-label ">Local DMZ Syslog Server IP:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_syslog_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_syslog_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_syslog_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_syslog_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								
+								<div class="form-group">
+									  <label class="col-lg-3 control-label ">Local DMZ Interface Mask:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_mask1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_mask2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_mask3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="local_dmz_mask4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                            </div></div>
+
+                            <div class="panel panel-default">
+  <div class="panel-body">
+                                <p><label><input name="radio_logging" type=
+                                "radio" value="dmz_syslog"> Configure Syslog to
+                                use a <a href="help.html#syslog_fw_dmz">DMZ on
+                                the Firewall</a></label></p>
+
+								<div class="form-group">
+									  <label class="col-lg-3 control-label ">Firewall DMZ Syslog Server IP address:</label>
+									  <div class="col-lg-12">
+										<div class="form-inline">
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_syslog_ip1" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_syslog_ip2" class="form-control" >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_syslog_ip3" class="form-control"  >
+											</div>
+										  </div><b>.</b>
+										  <div class="form-group ">
+											<div class="col-lg-12"> 
+											  <input type="text" size="3" maxlength="3" id="firewall_syslog_ip4" class="form-control" >
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+                            </div></div>
+
+                            <div class="panel panel-default">
+  <div class="panel-body">
+                                <label><input checked="checked" name=
+                                "radio_logging" type="radio" value=
+                                "local_logging"> Configure <a href=
+                                "help.html#local_logging">local logging
+                                only</a></label>
+                            </div></div>
+                        </div></div>
+						<center><button class="btn btn-default"
+                        onclick="Process()" type="button">Generate Configuration</button></center>
+                    </form>&nbsp;
+
+                    <form id="form2" name="form2">
+                        <div style="float:left;width:100%;">
+                            <textarea class="code-font" id="processed-code"
+                            placeholder="Code" style=
+                            "min-height: 400px;line-height: 1.2;min-width: 100%;">
+
+</textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+	<footer>
+		<div class="row">
+			<div class="col-lg-12">	
+				<div class="footer-font">
+					<h4>Disclaimer and Licensing</h4>
+					<p>The "fine print."</p>
+					<p>This software is not sponsored by, endorsed by or affiliated with Cisco Systems, Inc.  Cisco, Cisco Systems, and IOS are registered trademarks of Cisco Systems, Inc. in the USA and certain other countries.  All other trademarks are trademarks of their respective owners.</p>
+					<p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
+					<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.</p>
+					<p>A local copy of the license can be found at <a href="copying.html">copying</a>.</p>
+				</div>
+			</div>
+		</div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-unstyled">
+              <li><a href="https://www.borderroutersec.org/">&copy; 2015 Ted LeRoy</a></li>
+              <li class="pull-right"><a href="https://www.borderroutersec.org/">BorderRouterSec.org</a></li>
+              <li class="pull-right"><a href="https://github.com/TedLeRoy/BRST">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+    </div><script src="js/jquery-1.10.2.min.js"></script> <script src="js/bootstrap.min.js"></script> <script src="js/bootswatch.js"></script>
+</body>
+</html>
